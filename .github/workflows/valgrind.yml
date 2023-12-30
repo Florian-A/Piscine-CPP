@@ -2,7 +2,7 @@ name: valgrind
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 jobs:
   run-valgrind:
     runs-on: ubuntu-latest

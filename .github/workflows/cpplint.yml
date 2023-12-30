@@ -2,7 +2,7 @@ name: cpplint
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 jobs:
   run-lint:
     runs-on: ubuntu-latest
