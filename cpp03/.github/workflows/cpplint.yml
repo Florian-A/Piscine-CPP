@@ -1,0 +1,14 @@
+name: cpplint
+
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  run-lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.10' 
+    - run: pip install cpplint && cpplint --linelength=80 --filter=+build/c++98,-legal/copyright --recursive .

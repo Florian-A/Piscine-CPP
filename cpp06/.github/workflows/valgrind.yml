@@ -1,0 +1,13 @@
+name: valgrind
+
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  run-valgrind:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - run: sudo apt-get install valgrind
+    - run: find . -name Makefile -execdir make \;
+    - run: find . \( -path './.git' -o -path './ex00' \) -prune -o -type f -executable -print0 | xargs -0 -n1 valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --error-exitcode=1;

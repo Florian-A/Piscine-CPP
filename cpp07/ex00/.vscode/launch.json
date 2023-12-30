@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Template",
+            "program": "${workspaceFolder}/Template",
+            "args": [
+                "p"
+            ],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "build",
+            "env": {
+                "PATH": "${env:PATH}"
+            },
+        }
+    ]
+}
