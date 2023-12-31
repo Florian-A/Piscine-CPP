@@ -87,3 +87,17 @@ make
 
 ---
 
+### [CPP 05](./cpp05/)
+
+| |
+| --- |
+| <img src="./img/note2.png" style="zoom: 50%;" /> |
+
+| | |
+| --- | --- |
+| Correcteur 1 | <img src="./img/cpp05-correction1.png" style="zoom: 67%;" /> |
+| Correcteur 2 | <img src="./img/cpp05-correction2.png" style="zoom:67%;" /> |
+
+---
+
+

@@ -5,7 +5,6 @@
 #include "../includes/main.hpp"
 
 int main() {
- 
     /*
     
     Dans les années 1830-1840, durant la grande famine irlandaise,
