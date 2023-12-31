@@ -6,7 +6,7 @@
 #    By: f██████ <f██████@student.42lyon.fr>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/03 12:33:02 by f██████           #+#    #+#              #
-#    Updated: 2023/12/31 00:27:20 by f██████          ###   ########.fr        #
+#    Updated: 2023/12/31 14:53:51 by f██████          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,12 +18,12 @@ YELLOW=$'\x1b[33m
 # objects
 OBJS = $(SRCS:.cpp=.o)
 SRCS = $(addprefix $(SRC_DIR)/, \
-main.cpp PmergeMe.cpp \
+main.cpp \
 )
 
 # headers
 HEADERS = $(addprefix $(INC_DIR)/, \
-main.hpp PmergeMe.hpp \
+main.hpp \
 )
 
 # directories
