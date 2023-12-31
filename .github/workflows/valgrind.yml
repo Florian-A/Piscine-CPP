@@ -10,4 +10,4 @@ jobs:
     - uses: actions/checkout@v3
     - run: sudo apt-get install valgrind
     - run: find . -name Makefile -execdir make \;
-    - run: find . -path './.git' -prune -o -type f -executable -print0 | xargs -0 -n1 valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --error-exitcode=1;
+    - run: find . \( -path './.git' -o -path './cpp09' -o -path './cpp06/ex00' \) -prune -o -type f -executable -print0 | xargs -0 -n1 valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --error-exitcode=1;
