@@ -22,6 +22,10 @@ make
 
 ---
 
+### Intégration continue :
+
+[![build](https://github.com/Florian-A/Piscine-CPP/actions/workflows/build.yml/badge.svg)](https://github.com/Florian-A/Philosophers/actions/workflows/build.yml) [![cpplint](https://github.com/Florian-A/Piscine-CPP/actions/workflows/cpplint.yml/badge.svg)](https://github.com/Florian-A/Philosophers/actions/workflows/cpplint.yml) [![build](https://github.com/Florian-A/Piscine-CPP/actions/workflows/valgrind.yml/badge.svg)](https://github.com/Florian-A/Philosophers/actions/workflows/valgrind.yml)
+
 ### [CPP 00](./cpp00/)
 
 | |
