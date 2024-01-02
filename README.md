@@ -100,4 +100,53 @@ make
 
 ---
 
+### [CPP 06](./cpp06/)
 
+| |
+| --- |
+| <img src="./img/note2.png" style="zoom: 50%;" /> |
+
+| | |
+| --- | --- |
+| Correcteur 1 | <img src="./img/cpp06-correction1.png" style="zoom: 67%;" /> |
+| Correcteur 2 | <img src="./img/cpp06-correction2.png" style="zoom:67%;" /> |
+
+---
+
+### [CPP 07](./cpp07/)
+
+| |
+| --- |
+| <img src="./img/note2.png" style="zoom: 50%;" /> |
+
+| | |
+| --- | --- |
+| Correcteur 1 | <img src="./img/cpp07-correction1.png" style="zoom: 67%;" /> |
+| Correcteur 2 | <img src="./img/cpp07-correction2.png" style="zoom:67%;" /> |
+
+---
+
+### [CPP 08](./cpp08/)
+
+| |
+| --- |
+| <img src="./img/note1.png" style="zoom: 50%;" /> |
+
+| | |
+| --- | --- |
+| Correcteur 1 | <img src="./img/cpp08-correction1.png" style="zoom: 67%;" /> |
+| Correcteur 2 | <img src="./img/cpp08-correction2.png" style="zoom:67%;" /> |
+
+---
+
+### [CPP 09](./cpp09/)
+
+| |
+| --- |
+| <img src="./img/note2.png" style="zoom: 50%;" /> |
+
+| | |
+| --- | --- |
+| Correcteur 1 | <img src="./img/cpp09-correction1.png" style="zoom: 67%;" /> |
+| Correcteur 2 | <img src="./img/cpp09-correction2.png" style="zoom:67%;" /> |
+| Correcteur 3 | <img src="./img/cpp09-correction3.png" style="zoom:67%;" /> |
